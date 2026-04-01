@@ -2,9 +2,9 @@ class Assemble < Formula
   include Language::Python::Virtualenv
 
   desc "Terminal and web group chat with multiple AI models (OpenAI & Anthropic)"
-  homepage "https://github.com/imaresss/AI_Group_chat"
-  url "https://github.com/imaresss/AI_Group_chat/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "02e1c48723895376d1b53221603733016615f239383eb8b4c31e321a742f8f09"
+ homepage "https://github.com/imaresss/Assemble"
+ url "https://github.com/imaresss/Assemble/archive/refs/tags/v0.1.1.tar.gz"
+ sha256 "861421aecb5423620bcb75096a268c1e681346977db9c2b544321fb32d7ad5d4"
   license :cannot_represent
 
   depends_on "python@3.13"
@@ -176,7 +176,7 @@ class Assemble < Formula
         export ANTHROPIC_API_KEY="sk-ant-..."
 
       Optionally create ~/.groupchat/config.json to customise models.
-      See: https://github.com/imaresss/AI_Group_chat/blob/main/groupchat_config.example.json
+      See: https://github.com/imaresss/Assemble/blob/main/groupchat_config.example.json
 
       To start the web chat:
         assemble
