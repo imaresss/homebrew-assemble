@@ -4,7 +4,7 @@ class Assemble < Formula
   desc "Terminal and web group chat with multiple AI models (OpenAI & Anthropic)"
   homepage "https://github.com/imaresss/AI_Group_chat"
   url "https://github.com/imaresss/AI_Group_chat/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "02e1c48723895376d1b53221603733016615f239383eb8b4c31e321a742f8f09"
   license :cannot_represent
 
   depends_on "python@3.13"
